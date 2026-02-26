@@ -15,13 +15,13 @@ const HeroBranding = () => {
 {/* Brand Header Marquee */}
     <div 
       className="mb-1 overflow-hidden relative cursor-pointer"
-      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
+      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=2776&aff_id=44723&source=fivebelow" } }, "*")}
     >
       <div className="flex animate-marquee whitespace-nowrap min-w-full will-change-transform">
         {[...Array(10)].map((_, i) => (
           <div key={i} className="flex items-center mx-4">
             <img 
-              src="https://i.imgur.com/m3UNjtn.png" 
+              src="https://i.imgur.com/nRbGjPW.png" 
               alt="Marshalls Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
@@ -30,7 +30,7 @@ const HeroBranding = () => {
         {[...Array(10)].map((_, i) => (
           <div key={`dup-${i}`} className="flex items-center mx-4">
             <img 
-              src="https://i.imgur.com/m3UNjtn.png" 
+              src="https://i.imgur.com/nRbGjPW.png" 
               alt="Marshalls Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
@@ -48,7 +48,7 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/xR8g3Do.png" 
+                src="https://i.imgur.com/XQXtTHU.png" 
                 alt="Marshalls $1000 Gift Card" 
                 className="w-full h-auto"
               />
@@ -66,9 +66,9 @@ const HeroBranding = () => {
         <div className="relative">
             <h1 className="text-[21px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#182C54]">Unlock</span>
-            <span className="text-[#ffb9cd]">Crumbl Rewards</span>
+            <span className="text-[#0166ff]">Five Below Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-6 h-6 text-[#ffb9cd] fill-transparent" />
+              <Gift className="w-6 h-6 text-[#0166ff] fill-transparent" />
             </div>
           </h1>
         </div>
@@ -77,7 +77,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#182C54]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#ffb9cd] font-bold">$100 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#0166ff] font-bold">$500 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
         </div>
